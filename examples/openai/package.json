@@ -1,0 +1,19 @@
+{
+  "name": "toolsdk-example-openai-sdk",
+  "version": "1.0.0",
+  "description": "The example using the OpenAI SDK with ToolSDK.ai integration",
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "openai": "^5.10.2",
+    "toolsdk": "^1.5.6-alpha.46"
+  }
+}
